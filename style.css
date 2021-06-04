@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+#app{
+    width: 100%;
+    height:800px;
+    background-color: cyan;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width:70px;
+    margin: 8px auto;
+}
+#game{
+    width: 100%;
+    height:800px;
+    background-color: cyan;
+}
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
+h1{
+    font-size:30px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.menu {
+    position:fixed;
+    top:0px;
+    z-index: 10;
+    cursor: pointer;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+}
